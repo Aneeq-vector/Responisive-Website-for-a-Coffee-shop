@@ -259,12 +259,23 @@ section{
 }
 
 @media (max-width: 1370px){
-    .icons{
-        display: none;
-    }
+    
     section{
         padding: 0 4%;
     }
+    .icons{
+        position: absolute;
+        top: 140%;
+        left: 50%;
+        transform: translateX(-30%);
+    }
+    .icons i{
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 20px;
+    }
+    
 }
 
 @media (max-width: 1150px){
@@ -449,7 +460,18 @@ section{
     .home{
         background-image: url('images/bg.png');
         height: 100vh;
-        width: 65vh;
+        width: 70vh;
     }
-    
+    .icons{
+        position: absolute;
+        top: 140%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .icons i{
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 30px;
+    }
 }
