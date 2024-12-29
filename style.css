@@ -472,6 +472,6 @@ section{
         display: inline-block;
         align-items: center;
         justify-content: center;
-        letter-spacing: 30px;
+        letter-spacing: 10px;
     }
 }
